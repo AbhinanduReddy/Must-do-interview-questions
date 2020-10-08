@@ -20,7 +20,7 @@ int main()
        int s=v[0];
      for(int i=1;i<v.size();i++)
      {  cout<<s<<endl;
-         while(s>sum)
+         while(s>sum) && j<i-1)
 
          {
             s=s-v[j];
